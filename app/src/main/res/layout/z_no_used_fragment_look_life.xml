@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    tools:context="com.example.matsuguma.myapplication.z_no_used_LookLifeFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeFFee">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/looklife_fragment_comment" />
+
+        <LinearLayout
+            android:id="@+id/gender_button"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DDDDDD">
+            <Button
+                android:id="@+id/man_fragment_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="man"/>
+            <Button
+                android:id="@+id/lady_fragment_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lady"/>
+            <Button
+                android:id="@+id/sweet_fragment_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sweet"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Look Life</string>
+
+    <string name="launcher_activity_comment">This is LookLifeActivity.</string>
+    <string name="looklife_fragment_comment">This is LookLifeFragment.</string>
+
+    <string name="profile_fragment_comment">profile fragment</string>
+
+</resources>
